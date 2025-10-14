@@ -1,6 +1,6 @@
 # Image-Classification-using-Resnet18
 
-### Developed By: Vincy Jovitha V
+### Developed By: Ashwin Akash M
 
 ## 📘 Overview
 
