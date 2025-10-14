@@ -2,13 +2,13 @@
 
 ### Developed By: Ashwin Akash M
 
-## 📘 Overview
+## Overview
 
 This project builds an **image classification model** to identify whether an image belongs to a **cat, dog, or panda** using **transfer learning** with **ResNet18** in PyTorch.
 
 We leverage a pre-trained model on ImageNet and fine-tune its final layers to adapt it for this 3-class classification task.
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Create and Activate a Python Environment in Anaconda
 ```
@@ -21,7 +21,7 @@ conda activate torch_env
 pip install -r requirements.txt
 ```
 
-## 🧠 Dataset
+## Dataset
 
 The dataset is organized into separate training, validation, and testing sets to assess the model’s accuracy and generalization performance.
 ##### Dataset Link: https://drive.google.com/drive/folders/1RULxsjUArZXb7JInU94_KyH67lKYHUKy?usp=drive_link
@@ -41,7 +41,7 @@ data/
 
 
 
-## 🚀 CUDA & GPU Verification
+## CUDA & GPU Verification
 
 Before training, ensure GPU is available and configured:
 
@@ -56,7 +56,7 @@ If `True`, your model will automatically train using GPU for faster computation.
 
 
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 We use **ResNet18 (pre-trained on ImageNet)** and replace its final layer with:
 
@@ -72,7 +72,7 @@ Training configuration:
 
 
 
-## 📊 Evaluation
+## Evaluation
 
 The notebook reports:
 
@@ -85,7 +85,7 @@ Best model checkpoint is automatically saved as:
 ```
 best_resnet18.pth
 ```
-## 🧾 Results
+## Results
 
 The model was trained using **ResNet18** (pretrained on ImageNet) for **3 epochs** with a **batch size of 10** on GPU (NVIDIA GeForce MX550, 2GB VRAM).
 The dataset contained labeled images of **cats, dogs, and pandas**, structured into training and testing folders.
