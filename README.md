@@ -68,7 +68,7 @@ Training configuration:
 * **Criterion**: CrossEntropyLoss
 * **Optimizer**: Adam (lr = 0.001)
 * **Epochs**: 3
-* **Batch Size**: 10
+* **Batch Size**: 3
 
 
 
@@ -93,7 +93,6 @@ The dataset contained labeled images of **cats, dogs, and pandas**, structured i
 
 | Metric              | Value  |
 | ------------------- | ------ |
-| Training Accuracy   | ~95.6% |
-| Validation Accuracy | ~93.4% |
-| Test Accuracy       | ~92.8% |
+| Training Accuracy   | ~96.33% |
+| Test Accuracy       | ~96.33% |
 | Test Loss           | 0.21   |
